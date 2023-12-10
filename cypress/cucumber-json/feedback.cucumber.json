@@ -1,0 +1,63 @@
+[
+  {
+    "description": "As a valid user\nI want to send feedback via form",
+    "keyword": "Feature",
+    "name": "Send feedback",
+    "line": 1,
+    "id": "send-feedback",
+    "tags": [],
+    "uri": "feedback.feature",
+    "elements": [
+      {
+        "id": "send-feedback;submit-feedback-form",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Submit Feedback form",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open feedback page",
+            "result": {
+              "status": "passed",
+              "duration": 1836000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I feel feedback form",
+            "result": {
+              "status": "passed",
+              "duration": 942000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I click on send button",
+            "result": {
+              "status": "passed",
+              "duration": 278000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I see \"/sendFeedback.html\" in the url",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "newtours validation",
+    "line": 1,
+    "id": "newtours-validation",
+    "tags": [],
+    "uri": "newtours.feature",
+    "elements": [
+      {
+        "id": "newtours-validation;home-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Home Page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "preconditions",
+            "result": {
+              "status": "passed",
+              "duration": 3182000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "action",
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "testable outcome",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

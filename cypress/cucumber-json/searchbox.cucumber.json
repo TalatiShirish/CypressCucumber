@@ -1,0 +1,57 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Search related features",
+    "line": 1,
+    "id": "search-related-features",
+    "tags": [],
+    "uri": "searchbox.feature",
+    "elements": [
+      {
+        "id": "search-related-features;check-the-search-page-is-displayed",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Check the Search page is displayed",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open Zerobanks homepage",
+            "result": {
+              "status": "passed",
+              "duration": 1372000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should type \"some text\" in search textbox and press Enter key",
+            "result": {
+              "status": "passed",
+              "duration": 663000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Search Result page should contains \"Search Results:\"",
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
